@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fbhacks.standbyme.MainActivity"
+    android:background="@mipmap/loginbackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:typeface="sans"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textview1"
+        />
+
+    <ImageView
+        android:id="@+id/phone_icon"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/username"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/textview1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/phone_icon"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/home"
+        android:layout_marginTop="80dp"
+  />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Friend Contact Keyword"
+        android:textColor="#FFFFFF"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textview1"
+        android:layout_alignLeft="@+id/textview1"
+        android:layout_alignStart="@+id/textview1"
+        android:layout_marginTop="80dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Emergency Keyword"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:textColor="#FFFFFF"
+        android:layout_alignTop="@+id/phone_icon"
+        android:layout_alignLeft="@+id/textview1"
+        android:layout_alignStart="@+id/textview1" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="callstarter"
+        />
+
+</RelativeLayout>

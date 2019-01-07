@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Stand By Me</string>
+    <string name="title_activity_dummy_home">DummyHome</string>
+    <string name="title_activity_make_phone_call">MakePhoneCall</string>
+    <string name="title_activity_geo_location">GeoLocation</string>
+    <string name="title_activity_speech">Speech</string>
+    <string name="title_activity_txt_speech">TxtSpeech</string>
+    <string name="title_activity_text">Text</string>
+    <string name="title_activity_ringtone">Ringtone</string>
+    <string name="facebook_app_id">130687267412688</string>
+    <string name="fb_login_protocol_scheme">fb130687267412688</string>
+    <string name="button_send" />
+    <string name="title_activity_confirmation">Confirmation</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="title_activity_speech_text">SpeechText</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_safe">safe</string>
+</resources>
