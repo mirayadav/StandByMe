@@ -4,7 +4,7 @@ An Android app for prevention, protection and incrimination against harassment.
 Created for the Facebook Global Hackathon Finals.
 
 ## Screen Shots
-<img src="Screenshots/Home.png" width = "190"> <img src="Screenshots/Call.png"> <img src="Screenshots/FacebookAPI.png">
+<img src="Screenshots/Home.png" width = "193"> <img src="Screenshots/Call.png"> <img src="Screenshots/FacebookAPI.png">
 
 
 ## Reflection
