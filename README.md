@@ -8,6 +8,6 @@ Created for the Facebook Global Hackathon Finals.
 
 
 ## Reflection
-My team at the Facebook Global Hackathon Finals created StandByMe after hearing about a street harassment incident that occurred at a bus stop near our home. By utilizing the Facebook Messenger API and Google Speech to Text API, we were able to create an app that detects distress key words from the user and sends their location to a trusted Facebook friend. Our hack placed 4th overall.
+My team created StandByMe after hearing about a street harassment incident that occurred at a bus stop near our home. By utilizing the Facebook Messenger API and Google Speech to Text API, we were able to create an app that detects distress key words from the user and sends their location to a trusted Facebook friend. Our hack placed 4th overall.
 
 
